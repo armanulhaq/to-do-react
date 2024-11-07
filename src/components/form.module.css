@@ -1,0 +1,41 @@
+.todoForm {
+    background-color: white;
+    width: 40vw;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.todoInput {
+    width: 80%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Light background color */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Base button styling */
+.addButton {
+    padding: 12px 24px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    font-weight: 600; /* Bold font weight */
+    color: #fff; /* Text color */
+    background-color: #640d14; /* Button color */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    outline: none; /* Remove outline */
+}

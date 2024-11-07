@@ -1,3 +1,4 @@
+import styles from "./form.module.css";
 import { useState } from "react";
 
 const Form = ({ todoItems, setTodoItems }) => {
@@ -10,13 +11,17 @@ const Form = ({ todoItems, setTodoItems }) => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className={styles.todoForm} onSubmit={handleSubmit}>
             <input
+                className={styles.todoInput}
                 onChange={(e) => setTodoItem(e.target.value)}
                 value={todoItem}
+                placeholder="Enter todos"
                 type="text"
             />
-            <button type="submit">+</button>
+            <button className={styles.addButton} type="submit">
+                +
+            </button>
         </form>
     );
 };
