@@ -1,5 +1,5 @@
 .todoForm {
-    background-color: white;
+    background-color: #f8f9fa;
     width: 40vw;
     height: 80px;
     margin: 0 auto;
@@ -21,8 +21,8 @@
     border-radius: 15px;
     box-sizing: border-box;
     font-size: 16px;
-    background-color: #f9f9f9; /* Light background color */
-    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Base button styling */
@@ -31,7 +31,7 @@
     font-size: 16px; /* Font size */
     font-weight: 600; /* Bold font weight */
     color: #fff; /* Text color */
-    background-color: #640d14; /* Button color */
+    background-color: #2dc653; /* Button color */
     border: none; /* Remove default border */
     border-radius: 8px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */

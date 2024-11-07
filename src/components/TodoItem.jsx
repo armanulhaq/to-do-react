@@ -12,7 +12,7 @@ export default function TodoItem({ item, todos, setTodoItems }) {
         console.log(newTodos); // Log the updated todos instead of the original
     }
 
-    const isCompleted = item.done ? styles.completed : "";
+    const isCompleted = item.done ? styles.completed : "incomplete";
 
     return (
         <>
