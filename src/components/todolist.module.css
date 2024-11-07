@@ -1,16 +1,16 @@
 .list {
-    background-color: #f8f9fa;
-    width: 35vw;
+    background-color: #e9ecef;
+    width: 40vw;
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
     padding: 20px;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
 }
 
 .noItem {
-    background-color: #f8f9fa;
+    background-color: #e9ecef;
     width: 20vw;
     margin: 0 auto;
     margin-top: 30px;
@@ -20,4 +20,5 @@
     margin-bottom: 10vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
